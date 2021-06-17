@@ -200,12 +200,17 @@ $directions: rtl, ltr, ttb, btt;
 
 .m-drawer__container {
   position: relative;
+  outline: none;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
   height: 100%;
   width: 100%;
+}
+
+.m-drawer:focus {
+  outline: none;
 }
 
 .m-drawer-fade-enter-active {
