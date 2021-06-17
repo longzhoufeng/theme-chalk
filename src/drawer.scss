@@ -139,9 +139,8 @@ $directions: rtl, ltr, ttb, btt;
     align-items: center;
     color: rgb(114, 118, 123);
     display: flex;
-    margin-bottom: 32px;
+    margin-bottom: 0;
     padding: $--dialog-padding-primary;
-    padding-bottom: 0;
     & > :first-child {
       flex: 1;
     }
@@ -207,6 +206,10 @@ $directions: rtl, ltr, ttb, btt;
   bottom: 0;
   height: 100%;
   width: 100%;
+}
+
+.m-drawer :focus {
+  outline: none;
 }
 
 .m-drawer:focus {

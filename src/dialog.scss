@@ -32,7 +32,6 @@
 
   @include e(header) {
     padding: $--dialog-padding-primary;
-    padding-bottom: 10px;
   }
 
   @include e(headerbtn) {
