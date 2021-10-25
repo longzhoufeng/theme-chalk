@@ -38,6 +38,7 @@
     &.is-light {
       background-color: $--alert-success-color;
       color: $--color-success;
+      border: 1px solid $--color-success-border;
 
       .m-alert__description {
         color: $--color-success;
@@ -54,6 +55,7 @@
     &.is-light {
       background-color: $--alert-info-color;
       color: $--color-info;
+      border: 1px solid $--color-info-border;
     }
 
     &.is-dark {
@@ -70,6 +72,7 @@
     &.is-light {
       background-color: $--alert-warning-color;
       color: $--color-warning;
+      border: 1px solid $--color-warning-border;
 
       .m-alert__description {
         color: $--color-warning;
@@ -86,6 +89,7 @@
     &.is-light {
       background-color: $--alert-danger-color;
       color: $--color-danger;
+      border: 1px solid $--color-danger-border;
 
       .m-alert__description {
         color: $--color-danger;

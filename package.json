@@ -1,6 +1,6 @@
 {
   "name": "minigui-theme-chalk",
-  "version": "2.13.7",
+  "version": "2.13.8",
   "description": "minigui component chalk theme.",
   "main": "lib/index.css",
   "style": "lib/index.css",
